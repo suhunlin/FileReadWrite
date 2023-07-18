@@ -20,7 +20,7 @@
         android:background="#999"
         />
     <EditText
-        android:id="@+id/line"
+        android:id="@+id/lineInput"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#0f0"
@@ -58,11 +58,11 @@
         android:background="#999"
         />
     <TextView
-        android:id="@+id/read"
+        android:id="@+id/readLog"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="20sp"
         android:background="#ff0"
-        android:text="Read Result"
+        android:text=""
         />
 </androidx.appcompat.widget.LinearLayoutCompat>
